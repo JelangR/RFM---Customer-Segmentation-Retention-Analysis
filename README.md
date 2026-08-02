@@ -20,8 +20,8 @@ dan menyusun rekomendasi retensi & win-back campaign yang actionable.
 
 25,000 order dari 8,000 pelanggan, 20 negara, 14 kategori produk, dengan
 histori transaksi lengkap, churn label, membership tier, acquisition
-channel, dan tren revenue bulanan selama 6 tahun (2020-2026). Sumber: [E Commerce Customer Behavior and Sales 20202026
-Kaggle](https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026)
+channel, dan tren revenue bulanan selama 6 tahun (2020-2026). Sumber: [E Commerce Customer Behavior 
+and Sales 20202026 - Kaggle](https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026)
 
 ## Metodologi
 
