@@ -20,16 +20,17 @@ dan menyusun rekomendasi retensi & win-back campaign yang actionable.
 
 25,000 order dari 8,000 pelanggan, 20 negara, 14 kategori produk, dengan
 histori transaksi lengkap, churn label, membership tier, acquisition
-channel, dan tren revenue bulanan selama 6 tahun (2020-2026).
+channel, dan tren revenue bulanan selama 6 tahun (2020-2026). Sumber: [E Commerce Customer Behavior and Sales 20202026
+Kaggle](https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026)
 
 ## Metodologi
 
-1. **Data cleaning** — pengecekan missing value & duplikat
-2. **RFM scoring** — Recency, Frequency, Monetary dihitung per pelanggan,
+1. **Data cleaning**: pengecekan missing value & duplikat
+2. **RFM scoring**: Recency, Frequency, Monetary dihitung per pelanggan,
    diskoring dengan kuantil (1-5), lalu dikelompokkan jadi **9 segmen**
    (Champions, Loyal Customers, Potential Loyalists, Promising, Need
    Attention, Cannot Lose Them, At Risk, Hibernating, New Customers)
-3. **Validasi silang** — segmen RFM divalidasi terhadap **churn label
+3. **Validasi silang**: segmen RFM divalidasi terhadap **churn label
    aktual** (bukan asumsi), serta dianalisis lintas membership tier,
    acquisition channel, dan kategori produk
 
@@ -59,7 +60,7 @@ dijaga proaktif, bukan dianggap otomatis aman dari risiko churn.
 ![Acquisition Channel](images/acquisition_channel.png)
 
 **Organic Search** unggul dari sisi revenue per customer ($355), churn
-rate terendah (7.9%), dan volume pelanggan besar (2,019 orang) —
+rate terendah (7.9%), dan volume pelanggan besar (2,019 orang),
 menjadikannya channel paling bernilai secara keseluruhan, mengalahkan
 Paid Ad maupun Referral.
 
@@ -81,7 +82,7 @@ Paid Ad maupun Referral.
 | Cannot Lose Them | Personal outreach, benefit eksklusif, evaluasi pengalaman terakhir |
 | Hibernating | Win-back campaign biaya terkendali, hindari diskon besar untuk nilai historis rendah |
 
-**Prioritisasi retensi** — 2,720 pelanggan di segmen At Risk/Cannot Lose
+**Prioritisasi retensi**: 2,720 pelanggan di segmen At Risk/Cannot Lose
 Them/Need Attention jadi prioritas retention campaign; **1,925 pelanggan**
 Champions/Loyal Customers jadi target program VIP untuk menjaga
 loyalitas (bukan win-back).
@@ -96,7 +97,7 @@ segmentasi, dan visualisasi.
 ```
 ├── RFM_Customer_Segmentation___Retention_Analysis.ipynb
 ├── images/
-├── data/          # customers.csv, orders.csv, monthly_revenue.csv, product_summary.csv
+├── data/          
 └── README.md
 ```
 
@@ -106,6 +107,3 @@ segmentasi, dan visualisasi.
 pip install pandas numpy matplotlib seaborn squarify
 jupyter notebook RFM_Customer_Segmentation___Retention_Analysis.ipynb
 ```
-
----
-*Dataset digunakan untuk tujuan pembelajaran/portofolio.*
