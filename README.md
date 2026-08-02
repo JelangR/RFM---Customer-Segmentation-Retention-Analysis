@@ -30,8 +30,7 @@ and Sales 20202026 - Kaggle](https://www.kaggle.com/datasets/meruvakodandasuraj/
    diskoring dengan kuantil (1-5), lalu dikelompokkan jadi **9 segmen**
    (Champions, Loyal Customers, Potential Loyalists, Promising, Need
    Attention, Cannot Lose Them, At Risk, Hibernating, New Customers)
-3. **Validasi silang**: segmen RFM divalidasi terhadap **churn label
-   aktual** (bukan asumsi), serta dianalisis lintas membership tier,
+3. **Cross validation**: segmen RFM divalidasi terhadap **churn label**, serta dianalisis lintas membership tier,
    acquisition channel, dan kategori produk
 
 ## Key Findings
@@ -39,7 +38,7 @@ and Sales 20202026 - Kaggle](https://www.kaggle.com/datasets/meruvakodandasuraj/
 **Revenue sangat terkonsentrasi**
 ![Revenue by Segment](images/revenue_by_segment.png)
 
-Champions hanya 18.6% dari total pelanggan, tapi menyumbang **34.7%**
+Champions hanya **18.6%** dari total pelanggan, tapi menyumbang **34.7%**
 total revenue. Analisis Pareto mengonfirmasi: top 20% pelanggan
 menyumbang **48.05%** revenue.
 
@@ -48,7 +47,7 @@ menyumbang **48.05%** revenue.
 **Distribusi 9 segmen pelanggan**
 ![Segment Treemap](images/segment_treemap.png)
 
-**Risiko churn tidak sesederhana "value tinggi = aman"**
+**Risiko churn**
 ![Churn Rate by Segment](images/churn_rate_by_segment.png)
 
 Segmen **At Risk** (11.1%) dan **Need Attention** (10.4%) punya churn
@@ -65,12 +64,11 @@ menjadikannya channel paling bernilai secara keseluruhan, mengalahkan
 Paid Ad maupun Referral.
 
 **Temuan lain:**
-- Membership tier (Free/Silver/Gold/Platinum) ternyata **tidak banyak
+- Membership tier (Free/Silver/Gold/Platinum) **tidak banyak
   membedakan value pelanggan** (avg monetary berkisar $342-355 di semua
-  tier) — sinyal program membership belum efektif mendorong spending
+  tier), sinyal program membership belum efektif mendorong spending
   lebih besar di tier atas.
-- Kategori **Electronics** paling diminati pelanggan bernilai tinggi
-  (Champions & Loyal Customers), disusul Clothing & Apparel dan Home & Kitchen.
+- Kategori **Electronics** paling diminati, disusul Clothing & Apparel dan Home & Kitchen. Ketiga kategori ini diminati oleh segmen **Champions** & **Loyal Customers**
 
 ## Rekomendasi Aksi per Segmen
 
@@ -82,15 +80,14 @@ Paid Ad maupun Referral.
 | Cannot Lose Them | Personal outreach, benefit eksklusif, evaluasi pengalaman terakhir |
 | Hibernating | Win-back campaign biaya terkendali, hindari diskon besar untuk nilai historis rendah |
 
-**Prioritisasi retensi**: 2,720 pelanggan di segmen At Risk/Cannot Lose
-Them/Need Attention jadi prioritas retention campaign; **1,925 pelanggan**
-Champions/Loyal Customers jadi target program VIP untuk menjaga
-loyalitas (bukan win-back).
+**Prioritisasi retensi**: **2,720** pelanggan di segmen **At Risk/Cannot Lose
+Them/Need Attention** jadi prioritas retention campaign; **1,925** pelanggan
+**Champions/Loyal Customers** jadi target program VIP untuk menjaga
+loyalitas.
 
 ## Tools
 
-Python (pandas, numpy, matplotlib, seaborn, squarify) untuk RFM scoring,
-segmentasi, dan visualisasi.
+**Python**: pandas, numpy, matplotlib, seaborn, squarify
 
 ## Repo Structure
 
