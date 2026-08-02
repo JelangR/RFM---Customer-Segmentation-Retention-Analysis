@@ -1,4 +1,4 @@
-# Customer Segmentation (RFM) & Retention Analysis
+# RFM - Customer Segmentation & Retention Analysis
 
 Analisis segmentasi pelanggan berbasis RFM (Recency, Frequency, Monetary)
 pada 8,000 pelanggan e-commerce lintas 20 negara dan 14 kategori produk,
