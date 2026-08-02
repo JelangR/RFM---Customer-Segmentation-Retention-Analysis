@@ -52,7 +52,7 @@ menyumbang **48.05%** revenue.
 
 Segmen **At Risk** (11.1%) dan **Need Attention** (10.4%) punya churn
 rate tertinggi. Tapi menariknya, churn rate Champions (8.6%) tidak jauh
-beda dari rata-rata segmen lain — pelanggan bernilai tinggi tetap perlu
+beda dari rata-rata segmen lain. Pelanggan bernilai tinggi tetap perlu
 dijaga proaktif, bukan dianggap otomatis aman dari risiko churn.
 
 **Organic Search** unggul dari sisi revenue per customer ($355), churn
