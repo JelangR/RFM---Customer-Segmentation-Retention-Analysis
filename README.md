@@ -55,20 +55,14 @@ rate tertinggi. Tapi menariknya, churn rate Champions (8.6%) tidak jauh
 beda dari rata-rata segmen lain — pelanggan bernilai tinggi tetap perlu
 dijaga proaktif, bukan dianggap otomatis aman dari risiko churn.
 
-**Acquisition channel paling bernilai**
-![Acquisition Channel](images/acquisition_channel.png)
-
 **Organic Search** unggul dari sisi revenue per customer ($355), churn
 rate terendah (7.9%), dan volume pelanggan besar (2,019 orang),
 menjadikannya channel paling bernilai secara keseluruhan, mengalahkan
 Paid Ad maupun Referral.
 
-**Temuan lain:**
-- Membership tier (Free/Silver/Gold/Platinum) **tidak banyak
-  membedakan value pelanggan** (avg monetary berkisar $342-355 di semua
-  tier), sinyal program membership belum efektif mendorong spending
-  lebih besar di tier atas.
-- Kategori **Electronics** paling diminati, disusul Clothing & Apparel dan Home & Kitchen. Ketiga kategori ini diminati oleh segmen **Champions** & **Loyal Customers**
+**Membership tier** (Free/Silver/Gold/Platinum) **tidak banyak membedakan value pelanggan** (avg monetary berkisar $342-355 di semua tier), sinyal program membership belum efektif mendorong spending lebih besar di tier atas.
+
+Kategori **Electronics** paling diminati, disusul Clothing & Apparel dan Home & Kitchen. Ketiga kategori ini diminati oleh segmen **Champions** & **Loyal Customers**
 
 ## Rekomendasi Aksi per Segmen
 
