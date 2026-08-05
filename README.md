@@ -86,9 +86,10 @@ loyalitas.
 ## Repo Structure
 
 ```
-├── RFM_Customer_Segmentation_&_Retention_Analysis.ipynb
 ├── images/
-├── data/          
+├── data/
+├── notebook.ipynb
+├── analysis_deck.ipynb          
 └── README.md
 ```
 
