@@ -89,7 +89,7 @@ loyalitas.
 ├── images/
 ├── data/
 ├── notebook.ipynb
-├── analysis_deck.ipynb          
+├── analysis_deck.pptx         
 └── README.md
 ```
 
